@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+span {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 30px;
+}
+
+main { 
+  width: 400px;
+  height: 700px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+}
+
+header img{
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 37vh;
+  border-radius: 8px;
+}
+
+#main {
+  width: 38.3vh;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+#main p {
+  letter-spacing: 1px;
+}
+
+#main-footer img {
+  width: 15px;
+  height: 20px; 
+}
+
+#main-footer {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.price {
+  width: 50%;
+  display: flex; 
+}
+
+.price p {
+  margin-left: 10px;
+}
+
+#eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+#line {
+  width: 85%;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin-left: 25px;
+}
+
+footer {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
+
+footer p {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.hover-img {
+  opacity: 0;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 86%;
+  height: 96%;
+  border-radius: 8px;
+  position: absolute;
+  background-color: hsl(178, 100%, 50%);
+  display: flex;
+  justify-content: center;
+}
+
+.hover-img img {
+  width: 100px;
+  height: 100px;
+  margin-top: 120px;
+  margin-right: 30px;
+}
+
+.hover-img:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+}
+
+@media screen and (max-width: 410px) {
+  
+main {
+  width: 90%;
+} 
+  
+header img, #main, footer, .hover-img {
+  width: 80%;
+ }
+
+ .hover-img img {
+    margin: 90px;
+ }
+
+ .main-footer p {
+  font-size: 5px;
+ }
+
+}
+
